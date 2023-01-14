@@ -11,7 +11,7 @@ export const addTask = (evento) => {
 
     const value = input.value;
     const date =calendar.value;
-    const dateFormat = moment(date).format("DD/MM/YYYY"); /** console.log(moment(date).format("DD/MM/YYYY")); */
+    const dateFormat = moment(date).format("DD/MM/YYYY"); /** console.log(moment(date).format("DD/MM/YYY")); */
       
     if(value == "" || date == ""){
       return;
